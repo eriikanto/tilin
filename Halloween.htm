@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style type="text/css">
+<!--
+body {
+	background-color: #CC33CC;
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+</head><link rel="stylesheet" type="text/css" href="../Bienvenidos/fallingtextrotator.css" />
+
+<link href='http://fonts.googleapis.com/css?family=Orbitron:400,700,900' rel='stylesheet' type='text/css'>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="../Bienvenidos/jquery.lettering-0.6.1.min.js"></script>
+
+<script src="../Bienvenidos/fallingtextrotator.js">
+
+/* =====================================
+	Falling Text Rotator- by JavaScript Kit (www.javascriptkit.com)
+ Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+===================================== */
+
+</script>
+
+<script>
+
+
+jQuery(function(){ // on DOM load
+
+	$('#headline').fallingtextrotator({
+		pause: 3000,
+		cycles: 2,
+		ontextchange:function(msgindex, msg, eachchar){
+			//console.log(msgindex, msg, eachchar)
+		}
+	})
+})
+
+</script>
+
+<body>
+<div id="Layer1" style="position:absolute; left:38px; top:98px; width:407px; height:281px; z-index:1"><img src="../../../happy-halloween-dance.gif" width="409" height="279"></div>
+<div id="Layer2" style="position:absolute; left:1080px; top:140px; width:379px; height:313px; z-index:2"><img src="../../../halloween.gif" width="432" height="370"></div>
+<div id="Layer3" style="position:absolute; left:478px; top:466px; width:422px; height:107px; z-index:3">
+  <embed src="../../../Musica%20Electr&#243;nica%20especial%20de%20Halloween_160k.mp3" width="418" height="113"></embed>
+</div>
+<div id="Layer4" style="position:absolute; left:488px; top:85px; width:209px; height:195px; z-index:4"><img src="../../../halloween11gif.gif" width="216" height="253"></div>
+<div id="Layer5" style="position:absolute; left:739px; top:92px; width:220px; height:194px; z-index:5"><img src="../../../halloween12.gif" width="306" height="255"></div>
+<div id="Layer3" style="position:absolute; left:532px; top:14px; width:638px; height:74px; z-index:3"><script>
+//set style for NS4 to ''
+if (document.layers)
+var ns4def=''
+</script>
+
+<h2 id="flyin" style="position:relative;left:-800px;font-style:italic" style=&{ns4def};>Halloween!</h2>
+
+
+<script language="JavaScript1.2">
+
+/*
+Fly-in Header script (credit must stay enclosed)
+By javascriptkit.com
+For this and over 400+ JavaScripts,
+Visit http://www.javascriptkit.com
+*/
+
+
+if (document.getElementById||document.all)
+var crossheader=document.getElementById? document.getElementById("flyin").style : document.all.flyin.style
+
+function animatein(){
+if (parseInt(crossheader.left)<0)
+crossheader.left=parseInt(crossheader.left)+20+"px"
+else{
+crossheader.left=0
+crossheader.fontStyle="normal"
+clearInterval(start)
+}
+}
+
+if (document.getElementById||document.all)
+start=setInterval("animatein()",50)
+
+
+</script>
+
+<p align="center"><br />
+<a href="http://javascriptkit.com">
+</a></p>
+
+</body>
+</html>
